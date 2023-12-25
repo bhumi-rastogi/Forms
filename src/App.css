@@ -1,0 +1,105 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(102, 174, 169);
+  color: rgb(70, 67, 84);
+ 
+}
+.box {
+  
+  width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: #de9090;
+  color: rgb(70, 67, 84);
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  background-color: antiquewhite;
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  font-size: 25px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+label {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+
+}
+input {
+  padding: 8px;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+input,textarea {
+  padding: 8px;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+button {
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: #29849b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+button:hover {
+  background-color: #de9090;
+  color: black;
+  box-shadow: 0 4px 8px black;
+  font-size: 25px;
+}
+p.success {
+  text-align: center;
+  color: green;
+  margin-top: 10px;
+  font-size: 20px;
+}
+p.error {
+  text-align: left;
+  color: red;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
